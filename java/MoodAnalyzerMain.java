@@ -9,8 +9,7 @@ public class MoodAnalyzerMain {
 	@Test
 	public void givenMsg_Proper_ShouldReturnSad() {
 
-		String result = MoodAnalyzerTest.analyseMood("i am in Sad Mood");
-
+		String result = MoodAnalyzerTest.analyseMood("I'm in Sad Mood");
 		Assert.assertEquals("SAD", result);
 	}
 

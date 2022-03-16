@@ -11,6 +11,7 @@ public class MoodAnalyzerTest {
 			return "SAD";
 		} else {
 			return null;
+			
 		}
 	}
 }
